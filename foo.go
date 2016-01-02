@@ -1,7 +1,6 @@
 package foo
 
-import "fmt"
-
-func Foo() {
-	fmt.Println("version: 1.0.0")
+// Version returns the current version.
+func Version() string {
+	return "v1.0.0"
 }
