@@ -2,5 +2,5 @@ package foo
 
 // Version returns the current version.
 func Version() string {
-	return "v2"
+	return "3.0.0-alpha.1"
 }
